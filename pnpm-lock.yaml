@@ -4,6 +4,7 @@ dependencies:
   vue-class-component: 7.2.3_vue@2.6.11
   vue-property-decorator: 8.4.1_vue@2.6.11
   vue-router: 3.1.6
+  vuex: 3.1.3_vue@2.6.11
 devDependencies:
   '@typescript-eslint/eslint-plugin': 2.27.0_1b16601d03b675251fc711870248ce8d
   '@typescript-eslint/parser': 2.27.0_eslint@6.8.0+typescript@3.8.3
@@ -11,6 +12,7 @@ devDependencies:
   '@vue/cli-plugin-eslint': 4.3.1_39c37a0df7d91dff77b5226a724bc947
   '@vue/cli-plugin-router': 4.3.1_@vue+cli-service@4.3.1
   '@vue/cli-plugin-typescript': 4.3.1_22122c1b335748d34772818bd2671b9d
+  '@vue/cli-plugin-vuex': 4.3.1_@vue+cli-service@4.3.1
   '@vue/cli-service': 4.3.1_1b4cef5c389d87a9858b46bd754dac7f
   '@vue/eslint-config-typescript': 5.0.2_82d4aa705daee08b5d5a6613c2c6a188
   babel-eslint: 10.1.0_eslint@6.8.0
@@ -8703,6 +8705,14 @@ packages:
     dev: false
     resolution:
       integrity: sha512-VfPwgcGABbGAue9+sfrD4PuwFar7gPb1yl1UK1MwXoQPAw0BKSqWfoYCT/ThFrdEVWoI51dBuyCoiNU9bZDZxQ==
+  /vuex/3.1.3_vue@2.6.11:
+    dependencies:
+      vue: 2.6.11
+    dev: false
+    peerDependencies:
+      vue: ^2.0.0
+    resolution:
+      integrity: sha512-k8vZqNMSNMgKelVZAPYw5MNb2xWSmVgCKtYKAptvm9YtZiOXnRXFWu//Y9zQNORTrm3dNj1n/WaZZI26tIX6Mw==
   /watchpack/1.6.1:
     dependencies:
       chokidar: 2.1.8
@@ -9054,6 +9064,7 @@ specifiers:
   '@vue/cli-plugin-eslint': ^4.3.0
   '@vue/cli-plugin-router': ^4.3.1
   '@vue/cli-plugin-typescript': ^4.3.1
+  '@vue/cli-plugin-vuex': ^4.3.1
   '@vue/cli-service': ^4.3.0
   '@vue/eslint-config-typescript': ^5.0.2
   babel-eslint: ^10.1.0
@@ -9066,3 +9077,4 @@ specifiers:
   vue-property-decorator: ^8.4.1
   vue-router: ^3.1.6
   vue-template-compiler: ^2.6.11
+  vuex: ^3.1.3
