@@ -3,11 +3,13 @@ dependencies:
   vue: 2.6.11
   vue-class-component: 7.2.3_vue@2.6.11
   vue-property-decorator: 8.4.1_vue@2.6.11
+  vue-router: 3.1.6
 devDependencies:
   '@typescript-eslint/eslint-plugin': 2.27.0_1b16601d03b675251fc711870248ce8d
   '@typescript-eslint/parser': 2.27.0_eslint@6.8.0+typescript@3.8.3
   '@vue/cli-plugin-babel': 4.3.1_@vue+cli-service@4.3.1
   '@vue/cli-plugin-eslint': 4.3.1_39c37a0df7d91dff77b5226a724bc947
+  '@vue/cli-plugin-router': 4.3.1_@vue+cli-service@4.3.1
   '@vue/cli-plugin-typescript': 4.3.1_22122c1b335748d34772818bd2671b9d
   '@vue/cli-service': 4.3.1_1b4cef5c389d87a9858b46bd754dac7f
   '@vue/eslint-config-typescript': 5.0.2_82d4aa705daee08b5d5a6613c2c6a188
@@ -8675,6 +8677,10 @@ packages:
       vue: '*'
     resolution:
       integrity: sha512-8R4Us7DxFO0rwAL/2fv6vaZL8Oa4n/HGanHODYGTcvQHwT0FYJr9UuuFm2GoWAIXQu1mDO03HNeHswFp9vmTVA==
+  /vue-router/3.1.6:
+    dev: false
+    resolution:
+      integrity: sha512-GYhn2ynaZlysZMkFE5oCHRUTqE8BWs/a9YbKpNLi0i7xD6KG1EzDqpHQmv1F5gXjr8kL5iIVS8EOtRaVUEXTqA==
   /vue-style-loader/4.1.2:
     dependencies:
       hash-sum: 1.0.2
@@ -9046,6 +9052,7 @@ specifiers:
   '@typescript-eslint/parser': ^2.26.0
   '@vue/cli-plugin-babel': ^4.3.0
   '@vue/cli-plugin-eslint': ^4.3.0
+  '@vue/cli-plugin-router': ^4.3.1
   '@vue/cli-plugin-typescript': ^4.3.1
   '@vue/cli-service': ^4.3.0
   '@vue/eslint-config-typescript': ^5.0.2
@@ -9057,4 +9064,5 @@ specifiers:
   vue: ^2.6.11
   vue-class-component: ^7.2.3
   vue-property-decorator: ^8.4.1
+  vue-router: ^3.1.6
   vue-template-compiler: ^2.6.11
